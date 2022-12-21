@@ -1,10 +1,9 @@
-/* 
+/*
 String
 */
-let Fname: string ;
+var Fname;
 Fname = "ashish";
 console.log(Fname);
-
-let Lname: string ;
-Lname = 'Mangla'
+var Lname;
+Lname = 'Mangla';
 console.log(Lname);
