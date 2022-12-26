@@ -1,0 +1,19 @@
+{
+  "name": "testts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "datatypes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanglaa/testts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanglaa/testts/issues"
+  },
+  "homepage": "https://github.com/amanglaa/testts#readme"
+}
