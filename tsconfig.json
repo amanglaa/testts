@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
-        "removeComments": false
-    }   
+        "module": "commonjs",
+        "removeComments": false,
+        "target": "ES2015",
+        "lib": ["ES2015","DOM"]
+    }   ,
+    "exclude": ["node_modules", "**/*.spec.ts"]
 }
