@@ -30,6 +30,7 @@ let result = parseInt(dob);
  */
 
  let isVald : boolean;
+ isVald = false
  console.log(isVald);
 
 
@@ -57,5 +58,42 @@ console.log(empFind);
 let sum = numList.reduce((acc,num) => acc+ num);
 console.log(sum);
 
+/*
+ENUM
+*/
+
+const enum Color{
+    Red,
+    Green,
+    Blue
+
+}
+let c:Color = Color.Blue;
+let redColor:Color = Color.Red;
+
+console.log(c);
+console.log(redColor);
+
+/*
+Tupples
+*/
+
+let swapNumbs: [num1:number,num2:number];
+
+function swapNumbers(num1:number,num2:number):[number,number]{
+    num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
+    return [num1,num2]
+}
+swapNumbs = swapNumbers(10,20);
+
+swapNumbs[0];
+swapNumbs[1];
 
 
+
+
+let department;
+department = 10;
+department = 'ashish';
