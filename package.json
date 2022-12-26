@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amanglaa/testts/issues"
   },
-  "homepage": "https://github.com/amanglaa/testts#readme"
+  "homepage": "https://github.com/amanglaa/testts#readme",
+  "dependencies": {
+    "ts": "^0.2.2"
+  }
 }
